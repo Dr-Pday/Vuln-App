@@ -29,3 +29,4 @@ Follow these steps to set up the application on your local machine:
        ```bash
    python3 -m venv venv
    source venv/bin/activate   # For Windows: venv\Scripts\activate
+   ```
