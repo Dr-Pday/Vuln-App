@@ -1,0 +1,7 @@
+'''bash
+pip freeze > requirements.txt
+
+
+Flask==2.2.5
+Flask-SQLAlchemy==3.0.4
+Werkzeug==2.2.5
