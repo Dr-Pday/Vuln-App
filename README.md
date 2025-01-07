@@ -1,25 +1,27 @@
 # Vulnerable Web Application Testbed
 
-This repository contains a Flask-based web application designed to serve as a testbed for practicing and understanding various web vulnerabilities, including XSS, file upload issues, and SQL injection.
+This repository contains a Flask-based web application designed as a testbed for practicing and understanding web vulnerabilities, such as XSS, file upload issues, and SQL injection.
 
 ## Features
 
-- **XSS (Cross-Site Scripting)**: Five levels of difficulty, with increasing complexity.
-- **File Upload Vulnerabilities**: Three levels of difficulty, restricting file types and upload paths.
-- **SQL Injection**: Two levels of difficulty, illustrating common mistakes and attack vectors.
+- **XSS (Cross-Site Scripting)**: Five levels with increasing difficulty.
+- **File Upload Vulnerabilities**: Three levels with stricter restrictions.
+- **SQL Injection**: Two levels demonstrating insecure and secure database querying.
 
 ## Prerequisites
 
-Before running the application, ensure you have the following installed on your system:
+Ensure you have the following installed before proceeding:
 
 1. Python 3.8 or higher
 2. [pip](https://pip.pypa.io/en/stable/installation/)
 3. Git
-4. SQLite (used as the database)
+4. SQLite (for database)
 
-## Installation
+## Installation and Setup
 
-1. Clone the repository:
+Follow these steps to set up the application on your local machine:
+
+1. **Clone the Repository**:
    ```bash
-   git clone https://github.com/<your-username>/<your-repository>.git
-   cd <your-repository>
+   git clone https://github.com/Dr-pday/Vuln-App.git
+   cd Vuln-App
