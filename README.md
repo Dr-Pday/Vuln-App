@@ -25,3 +25,7 @@ Follow these steps to set up the application on your local machine:
    ```bash
    git clone https://github.com/Dr-pday/Vuln-App.git
    cd Vuln-App
+2. **Create a Virtual Environment**:
+       ```bash
+   python3 -m venv venv
+   source venv/bin/activate   # For Windows: venv\Scripts\activate
