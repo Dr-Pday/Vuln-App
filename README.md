@@ -35,12 +35,12 @@ Follow these steps to set up the application on your local machine:
    ```bash
    pip install -r requirements.txt
    
-   Then run the following commands:
+      Then run the following commands:
    
-  ```bash
-   from app import db
-   db.create_all()
-   exit()
+     ```bash
+      from app import db
+      db.create_all()
+      exit()
 
 4. **Initialize the Database:**:
    Open Python in your terminal:
