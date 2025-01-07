@@ -25,8 +25,31 @@ Follow these steps to set up the application on your local machine:
    ```bash
    git clone https://github.com/Dr-pday/Vuln-App.git
    cd Vuln-App
+   
 2. **Create a Virtual Environment**:
    ```bash
    python3 -m venv venv
    source venv/bin/activate   # For Windows: venv\Scripts\activate
+   
+3. **Install Dependencies:**:
+   ```bash
+   pip install -r requirements.txt
+   
+   Then run the following commands:
+   
+  ```bash
+   from app import db
+   db.create_all()
+   exit()
+
+4. **Initialize the Database:**:
+   Open Python in your terminal:
+   ```bash
+   python3
+
+5. **Create the Uploads Directory:**:
+   ```bash
+   mkdir static/uploads
+
+   
    
