@@ -1,43 +1,25 @@
+# Vulnerable Web Application Testbed
 
-#Vulnerable Web Application 
+This repository contains a Flask-based web application designed to serve as a testbed for practicing and understanding various web vulnerabilities, including XSS, file upload issues, and SQL injection.
 
-This is a simple Flask-based web application designed as a testbed for practicing web security vulnerabilities such as XSS, file upload issues, and SQL injection.
+## Features
 
-Features
+- **XSS (Cross-Site Scripting)**: Five levels of difficulty, with increasing complexity.
+- **File Upload Vulnerabilities**: Three levels of difficulty, restricting file types and upload paths.
+- **SQL Injection**: Two levels of difficulty, illustrating common mistakes and attack vectors.
 
-XSS (Cross-Site Scripting): Five levels of difficulty.
-File Upload Vulnerabilities: Three levels of difficulty.
-SQL Injection: Two levels of difficulty.
-Prerequisites
+## Prerequisites
 
-Python 3.8 or higher
-pip installed
-Git installed
-SQLite (for the default database)
-Installation
+Before running the application, ensure you have the following installed on your system:
 
-Clone the repository:
-git clone https://github.com/<your-username>/<your-repository>.git
-cd <your-repository>
-Create a virtual environment and activate it:
-python3 -m venv venv
-source venv/bin/activate   # On Windows: venv\\Scripts\\activate
-Install the required dependencies:
-pip install -r requirements.txt
-Initialize the database:
-python
->>> from app import db
->>> db.create_all()
->>> exit()
-Create the uploads directory:
-mkdir static/uploads
-Running the Application
+1. Python 3.8 or higher
+2. [pip](https://pip.pypa.io/en/stable/installation/)
+3. Git
+4. SQLite (used as the database)
 
-Start the application:
-python app.py
-Open your browser and navigate to:
-http://127.0.0.1:5000
-Notes
+## Installation
 
-This application is intentionally vulnerable. Do not deploy it to a production environment.
-Use it only for educational purposes and in a controlled environment.
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/<your-username>/<your-repository>.git
+   cd <your-repository>
