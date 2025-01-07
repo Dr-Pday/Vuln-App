@@ -52,4 +52,13 @@ Follow these steps to set up the application on your local machine:
    mkdir static/uploads
 
    
-   
+## Running the Application
+
+1. **Start the Application** 
+ ```bash
+python3 app.py
+
+
+
+
+
