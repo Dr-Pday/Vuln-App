@@ -1,32 +1,6 @@
 # Vulnerable Web Application 
 This repository contains a Flask-based web application designed for practicing and understanding web vulnerabilities, such as XSS, file upload issues, and SQL injection.
 
-.
-├── app.py
-├── requirements.txt
-├── templates/
-│   ├── index.html
-│   ├── login.html
-│   ├── register.html
-│   ├── dashboard.html
-│   ├── xss/
-│   │   ├── level1.html
-│   │   ├── level2.html
-│   │   ├── level3.html
-│   │   ├── level4.html
-│   │   ├── level5.html
-│   ├── upload/
-│   │   ├── level1.html
-│   │   ├── level2.html
-│   │   ├── level3.html
-│   ├── sql/
-│       ├── level1.html
-│       ├── level2.html
-├── static/
-│   ├── css/
-│   │   └── style.css
-│   ├── uploads/
-
 
 ## Features
 
